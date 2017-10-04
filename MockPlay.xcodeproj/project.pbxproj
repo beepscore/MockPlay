@@ -36,6 +36,7 @@
 		DE15FFA71F85467D004E7D51 /* MockPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE15FFAB1F85467D004E7D51 /* MockPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPlayTests.swift; sourceTree = "<group>"; };
 		DE15FFAD1F85467D004E7D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE15FFB61F8546FC004E7D51 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		DE15FF8A1F85467D004E7D51 = {
 			isa = PBXGroup;
 			children = (
+				DE15FFB61F8546FC004E7D51 /* README.md */,
 				DE15FF951F85467D004E7D51 /* MockPlay */,
 				DE15FFAA1F85467D004E7D51 /* MockPlayTests */,
 				DE15FF941F85467D004E7D51 /* Products */,
