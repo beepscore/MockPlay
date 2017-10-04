@@ -16,6 +16,8 @@
 		DE15FFB81F854B79004E7D51 /* PushNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15FFB71F854B79004E7D51 /* PushNotificationController.swift */; };
 		DE15FFBA1F854D0A004E7D51 /* PushNotificationRegistrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15FFB91F854D09004E7D51 /* PushNotificationRegistrar.swift */; };
 		DE66A1011F854FE7009C00E2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE66A1001F854FE7009C00E2 /* User.swift */; };
+		DEFD2C341F856CC60002D918 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD2C331F856CC60002D918 /* UIApplicationExtension.swift */; };
+		DEFD2C361F856EDD0002D918 /* FauxRegistrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD2C351F856EDD0002D918 /* FauxRegistrar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		DE15FFB71F854B79004E7D51 /* PushNotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationController.swift; sourceTree = "<group>"; };
 		DE15FFB91F854D09004E7D51 /* PushNotificationRegistrar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationRegistrar.swift; sourceTree = "<group>"; };
 		DE66A1001F854FE7009C00E2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DEFD2C331F856CC60002D918 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		DEFD2C351F856EDD0002D918 /* FauxRegistrar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FauxRegistrar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +95,10 @@
 				DE15FF9D1F85467D004E7D51 /* Assets.xcassets */,
 				DE15FF9F1F85467D004E7D51 /* LaunchScreen.storyboard */,
 				DE15FFA21F85467D004E7D51 /* Info.plist */,
+				DEFD2C351F856EDD0002D918 /* FauxRegistrar.swift */,
 				DE15FFB71F854B79004E7D51 /* PushNotificationController.swift */,
 				DE15FFB91F854D09004E7D51 /* PushNotificationRegistrar.swift */,
+				DEFD2C331F856CC60002D918 /* UIApplicationExtension.swift */,
 				DE66A1001F854FE7009C00E2 /* User.swift */,
 			);
 			path = MockPlay;
@@ -210,7 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEFD2C341F856CC60002D918 /* UIApplicationExtension.swift in Sources */,
 				DE15FFBA1F854D0A004E7D51 /* PushNotificationRegistrar.swift in Sources */,
+				DEFD2C361F856EDD0002D918 /* FauxRegistrar.swift in Sources */,
 				DE15FF991F85467D004E7D51 /* ViewController.swift in Sources */,
 				DE15FFB81F854B79004E7D51 /* PushNotificationController.swift in Sources */,
 				DE66A1011F854FE7009C00E2 /* User.swift in Sources */,

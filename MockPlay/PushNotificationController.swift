@@ -11,6 +11,12 @@ import Foundation
 
 /// Reference: MocksPlayground.swift
 /// https://gist.github.com/eliperkins/8f4115151497dc1953ea
-struct PushNotificationController {
+public struct PushNotificationController {
+
+    let registrar: PushNotificationRegistrar
+
+    public init(registrar: PushNotificationRegistrar) {
+        self.registrar = registrar
+    }
 
 }

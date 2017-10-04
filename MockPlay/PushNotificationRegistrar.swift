@@ -8,7 +8,7 @@
 
 import UserNotifications
 
-protocol PushNotificationRegistrar {
+public protocol PushNotificationRegistrar {
 
     // https://www.appcoda.com/ios10-user-notifications-guide/
     func registerUserNotificationSettings(notificationSettings: UNNotificationSettings)
