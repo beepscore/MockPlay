@@ -6,10 +6,10 @@
 //  Copyright © 2017 Beepscore LLC. All rights reserved.
 //
 
-import UIKit
+import UserNotifications
 
 protocol PushNotificationRegistrar {
 
-    // FIXME: 'UIUserNotificationSettings' was deprecated in iOS 10.0: Use UserNotifications Framework's UNNotificationSettings
-    func registerUserNotificationSettings(notificationSettings: UIUserNotificationSettings)
+    // https://www.appcoda.com/ios10-user-notifications-guide/
+    func registerUserNotificationSettings(notificationSettings: UNNotificationSettings)
 }
