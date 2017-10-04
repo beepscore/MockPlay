@@ -15,6 +15,7 @@
 		DE15FFAC1F85467D004E7D51 /* MockPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15FFAB1F85467D004E7D51 /* MockPlayTests.swift */; };
 		DE15FFB81F854B79004E7D51 /* PushNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15FFB71F854B79004E7D51 /* PushNotificationController.swift */; };
 		DE15FFBA1F854D0A004E7D51 /* PushNotificationRegistrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15FFB91F854D09004E7D51 /* PushNotificationRegistrar.swift */; };
+		DE66A1011F854FE7009C00E2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE66A1001F854FE7009C00E2 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		DE15FFB61F8546FC004E7D51 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE15FFB71F854B79004E7D51 /* PushNotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationController.swift; sourceTree = "<group>"; };
 		DE15FFB91F854D09004E7D51 /* PushNotificationRegistrar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationRegistrar.swift; sourceTree = "<group>"; };
+		DE66A1001F854FE7009C00E2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				DE15FFA21F85467D004E7D51 /* Info.plist */,
 				DE15FFB71F854B79004E7D51 /* PushNotificationController.swift */,
 				DE15FFB91F854D09004E7D51 /* PushNotificationRegistrar.swift */,
+				DE66A1001F854FE7009C00E2 /* User.swift */,
 			);
 			path = MockPlay;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				DE15FFBA1F854D0A004E7D51 /* PushNotificationRegistrar.swift in Sources */,
 				DE15FF991F85467D004E7D51 /* ViewController.swift in Sources */,
 				DE15FFB81F854B79004E7D51 /* PushNotificationController.swift in Sources */,
+				DE66A1011F854FE7009C00E2 /* User.swift in Sources */,
 				DE15FF971F85467D004E7D51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
