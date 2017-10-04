@@ -9,7 +9,8 @@
 import Foundation
 import UserNotifications
 
-
+/// In this test approach, create a protocol with only the method(s) we want to test.
+/// Then in both the original class and the mock class adopt the protocol.
 public protocol UNCenterAuthRequester {
 
     /// copied this method signature from
