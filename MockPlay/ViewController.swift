@@ -7,13 +7,18 @@
 //
 
 import UIKit
+import UserNotifications
 
 class ViewController: UIViewController {
+
+    let authRequester: UNCenterAuthRequester = UNUserNotificationCenter.current()
+    var controller: UserNotificationController?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
+        controller = UserNotificationController(authRequester: authRequester)
 
     }
 
