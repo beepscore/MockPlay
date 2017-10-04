@@ -12,7 +12,7 @@
 		DE15FF9C1F85467D004E7D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE15FF9A1F85467D004E7D51 /* Main.storyboard */; };
 		DE15FF9E1F85467D004E7D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE15FF9D1F85467D004E7D51 /* Assets.xcassets */; };
 		DE15FFA11F85467D004E7D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE15FF9F1F85467D004E7D51 /* LaunchScreen.storyboard */; };
-		DE15FFAC1F85467D004E7D51 /* MockPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15FFAB1F85467D004E7D51 /* MockPlayTests.swift */; };
+		DE15FFAC1F85467D004E7D51 /* UserNotificationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15FFAB1F85467D004E7D51 /* UserNotificationControllerTests.swift */; };
 		DE15FFB81F854B79004E7D51 /* UserNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15FFB71F854B79004E7D51 /* UserNotificationController.swift */; };
 		DE66A1011F854FE7009C00E2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE66A1001F854FE7009C00E2 /* User.swift */; };
 		DEFD2C341F856CC60002D918 /* UNUserNotificationCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD2C331F856CC60002D918 /* UNUserNotificationCenterExtension.swift */; };
@@ -38,7 +38,7 @@
 		DE15FFA01F85467D004E7D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE15FFA21F85467D004E7D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE15FFA71F85467D004E7D51 /* MockPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE15FFAB1F85467D004E7D51 /* MockPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPlayTests.swift; sourceTree = "<group>"; };
+		DE15FFAB1F85467D004E7D51 /* UserNotificationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationControllerTests.swift; sourceTree = "<group>"; };
 		DE15FFAD1F85467D004E7D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE15FFB61F8546FC004E7D51 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE15FFB71F854B79004E7D51 /* UserNotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationController.swift; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		DE15FFAA1F85467D004E7D51 /* MockPlayTests */ = {
 			isa = PBXGroup;
 			children = (
-				DE15FFAB1F85467D004E7D51 /* MockPlayTests.swift */,
+				DE15FFAB1F85467D004E7D51 /* UserNotificationControllerTests.swift */,
 				DE15FFAD1F85467D004E7D51 /* Info.plist */,
 			);
 			path = MockPlayTests;
@@ -234,7 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE15FFAC1F85467D004E7D51 /* MockPlayTests.swift in Sources */,
+				DE15FFAC1F85467D004E7D51 /* UserNotificationControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

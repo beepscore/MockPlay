@@ -1,5 +1,5 @@
 //
-//  MockPlayTests.swift
+//  UserNotificationControllerTests.swift
 //  MockPlayTests
 //
 //  Created by Steve Baker on 10/4/17.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import MockPlay
 
-class MockPlayTests: XCTestCase {
+class UserNotificationControllerTests: XCTestCase {
     
 
     func testExample() {
