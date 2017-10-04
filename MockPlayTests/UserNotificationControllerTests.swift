@@ -10,11 +10,18 @@ import XCTest
 @testable import MockPlay
 
 class UserNotificationControllerTests: XCTestCase {
-    
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testSetUserCallsRequestAuth() {
+
+        let authRequester = FauxAuthRequester()
+        var controller = UserNotificationController(authRequester: authRequester)
+
+        // check setup
+        XCTAssertFalse(authRequester.wasRequestAuthorizationCalled)
+
+        // trigger call to method under test
+        controller.user = User()
+
+        XCTAssertTrue(authRequester.wasRequestAuthorizationCalled, "setting user should request auth")
     }
-    
 }

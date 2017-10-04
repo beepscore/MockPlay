@@ -1,5 +1,5 @@
 //
-//  FauxAuthRequester.swift
+//  UNCenterAuthRequester.swift
 //  MockPlay
 //
 //  Created by Steve Baker on 10/4/17.
@@ -9,6 +9,7 @@
 import Foundation
 import UserNotifications
 
+
 public protocol UNCenterAuthRequester {
 
     /// copied this method signature from
@@ -16,18 +17,5 @@ public protocol UNCenterAuthRequester {
     /// https://www.appcoda.com/ios10-user-notifications-guide/
     func requestAuthorization(options: UNAuthorizationOptions,
                               completionHandler: @escaping (Bool, Error?) -> Void)
-
-}
-
-class FauxAuthRequester: UNCenterAuthRequester {
-    var registered = false
-    
-    /// copied this method signature from
-    /// UNUserNotificationCenter.current().requestAuthorization
-    /// https://www.appcoda.com/ios10-user-notifications-guide/
-    func requestAuthorization(options: UNAuthorizationOptions = [],
-                              completionHandler: @escaping (Bool, Error?) -> Void) {
-
-    }
 
 }

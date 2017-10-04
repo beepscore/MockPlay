@@ -14,9 +14,10 @@
 		DE15FFA11F85467D004E7D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE15FF9F1F85467D004E7D51 /* LaunchScreen.storyboard */; };
 		DE15FFAC1F85467D004E7D51 /* UserNotificationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15FFAB1F85467D004E7D51 /* UserNotificationControllerTests.swift */; };
 		DE15FFB81F854B79004E7D51 /* UserNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15FFB71F854B79004E7D51 /* UserNotificationController.swift */; };
+		DE3226961F85890A00BE4126 /* UNCenterAuthRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3226951F85890A00BE4126 /* UNCenterAuthRequester.swift */; };
+		DE3226971F85895E00BE4126 /* FauxAuthRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD2C351F856EDD0002D918 /* FauxAuthRequester.swift */; };
 		DE66A1011F854FE7009C00E2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE66A1001F854FE7009C00E2 /* User.swift */; };
 		DEFD2C341F856CC60002D918 /* UNUserNotificationCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD2C331F856CC60002D918 /* UNUserNotificationCenterExtension.swift */; };
-		DEFD2C361F856EDD0002D918 /* FauxAuthRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD2C351F856EDD0002D918 /* FauxAuthRequester.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		DE15FFAD1F85467D004E7D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE15FFB61F8546FC004E7D51 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE15FFB71F854B79004E7D51 /* UserNotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationController.swift; sourceTree = "<group>"; };
+		DE3226951F85890A00BE4126 /* UNCenterAuthRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNCenterAuthRequester.swift; sourceTree = "<group>"; };
 		DE66A1001F854FE7009C00E2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DEFD2C331F856CC60002D918 /* UNUserNotificationCenterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNUserNotificationCenterExtension.swift; sourceTree = "<group>"; };
 		DEFD2C351F856EDD0002D918 /* FauxAuthRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FauxAuthRequester.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		DE15FFAA1F85467D004E7D51 /* MockPlayTests */ = {
 			isa = PBXGroup;
 			children = (
+				DEFD2C351F856EDD0002D918 /* FauxAuthRequester.swift */,
 				DE15FFAB1F85467D004E7D51 /* UserNotificationControllerTests.swift */,
 				DE15FFAD1F85467D004E7D51 /* Info.plist */,
 			);
@@ -110,7 +113,7 @@
 		DEFD2C371F8570F40002D918 /* push */ = {
 			isa = PBXGroup;
 			children = (
-				DEFD2C351F856EDD0002D918 /* FauxAuthRequester.swift */,
+				DE3226951F85890A00BE4126 /* UNCenterAuthRequester.swift */,
 				DE15FFB71F854B79004E7D51 /* UserNotificationController.swift */,
 				DEFD2C331F856CC60002D918 /* UNUserNotificationCenterExtension.swift */,
 				DE66A1001F854FE7009C00E2 /* User.swift */,
@@ -222,8 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEFD2C341F856CC60002D918 /* UNUserNotificationCenterExtension.swift in Sources */,
-				DEFD2C361F856EDD0002D918 /* FauxAuthRequester.swift in Sources */,
 				DE15FF991F85467D004E7D51 /* ViewController.swift in Sources */,
+				DE3226961F85890A00BE4126 /* UNCenterAuthRequester.swift in Sources */,
 				DE15FFB81F854B79004E7D51 /* UserNotificationController.swift in Sources */,
 				DE66A1011F854FE7009C00E2 /* User.swift in Sources */,
 				DE15FF971F85467D004E7D51 /* AppDelegate.swift in Sources */,
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3226971F85895E00BE4126 /* FauxAuthRequester.swift in Sources */,
 				DE15FFAC1F85467D004E7D51 /* UserNotificationControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
