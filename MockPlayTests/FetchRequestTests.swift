@@ -34,7 +34,10 @@ class FetchRequestTests: XCTestCase {
         fetchRequest.resultType = .dictionaryResultType
 
         do {
-            // call method under test
+            // call method under test, "fetch".
+            // Testing this mocked method isn't so valuable or interesting in itself.
+            // But the assertions show the mock is working, and this mock could be used to test other methods that need a mock.
+
             let results = try mockContext.fetch(fetchRequest)
 
             XCTAssertEqual(results.count, 1, "fetch request should only return 1 result")
