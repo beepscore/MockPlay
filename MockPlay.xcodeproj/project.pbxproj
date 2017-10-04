@@ -14,6 +14,7 @@
 		DE15FFA11F85467D004E7D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE15FF9F1F85467D004E7D51 /* LaunchScreen.storyboard */; };
 		DE15FFAC1F85467D004E7D51 /* MockPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15FFAB1F85467D004E7D51 /* MockPlayTests.swift */; };
 		DE15FFB81F854B79004E7D51 /* PushNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15FFB71F854B79004E7D51 /* PushNotificationController.swift */; };
+		DE15FFBA1F854D0A004E7D51 /* PushNotificationRegistrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15FFB91F854D09004E7D51 /* PushNotificationRegistrar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		DE15FFAD1F85467D004E7D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE15FFB61F8546FC004E7D51 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE15FFB71F854B79004E7D51 /* PushNotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationController.swift; sourceTree = "<group>"; };
+		DE15FFB91F854D09004E7D51 /* PushNotificationRegistrar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationRegistrar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				DE15FF9F1F85467D004E7D51 /* LaunchScreen.storyboard */,
 				DE15FFA21F85467D004E7D51 /* Info.plist */,
 				DE15FFB71F854B79004E7D51 /* PushNotificationController.swift */,
+				DE15FFB91F854D09004E7D51 /* PushNotificationRegistrar.swift */,
 			);
 			path = MockPlay;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE15FFBA1F854D0A004E7D51 /* PushNotificationRegistrar.swift in Sources */,
 				DE15FF991F85467D004E7D51 /* ViewController.swift in Sources */,
 				DE15FFB81F854B79004E7D51 /* PushNotificationController.swift in Sources */,
 				DE15FF971F85467D004E7D51 /* AppDelegate.swift in Sources */,
