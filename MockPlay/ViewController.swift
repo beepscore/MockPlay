@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
 
         controller = UserNotificationController(authRequester: authRequester)
-
+        controller?.user = User()
     }
 
     override func didReceiveMemoryWarning() {
