@@ -14,8 +14,12 @@ class FetchRequestTests: XCTestCase {
     /// http://nshipster.com/xctestcase/#mocking-in-swift
     func testFetchRequestWithMockedManagedObjectContext() {
 
-        /// In this approach, mock by subclassing the class we want to test, override methods as necessary
+        /// This example creates a mock by subclassing the class we need for our test.
+        /// Override methods as necessary.
         /// Swift can declare an "inner class" within a function.
+        /// Note in general we aren't interested in testing the mock,
+        /// just need it to fulfill a dependency in order to test another object.
+        /// For example might want a mock web service to return fake results.
         class MockNSManagedObjectContext: NSManagedObjectContext {
 
             /// this mocked method always returns same result
