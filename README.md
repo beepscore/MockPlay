@@ -17,3 +17,5 @@ http://nshipster.com/xctestcase/#mocking-in-swift
 
 # Results
 
+Article "Mocks in Swift via Protocols" used an iOS playground and now-deprecated UIUserNotificationSettings.  
+I updated the code to an app, and mocked part of UNUserNotificationCenter.
