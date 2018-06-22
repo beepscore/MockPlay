@@ -3,8 +3,10 @@ MockPlay is an iOS Swift application to experiment with mocking via protocols.
 
 # References
 
-## Mocks in Swift via Protocols
-http://blog.eliperkins.me/mocks-in-swift-via-protocols
+## Mocks in Swift via Protocols by Eli Perkins
+https://blog.eliperkins.me/mocks-in-swift-via-protocols/
+direct url doesn't work, can start at home page instead
+https://blog.eliperkins.me/
 
 ### MocksPlayground.swift
 https://gist.github.com/eliperkins/8f4115151497dc1953ea
