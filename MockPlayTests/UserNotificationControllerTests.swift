@@ -19,9 +19,10 @@ class UserNotificationControllerTests: XCTestCase {
         // check setup
         XCTAssertFalse(authRequester.wasRequestAuthorizationCalled)
 
-        // trigger call to method under test
+        // set user
         controller.user = User()
 
+        // test if setting controller.user called requestAuthorization
         XCTAssertTrue(authRequester.wasRequestAuthorizationCalled, "setting user should request auth")
     }
 }

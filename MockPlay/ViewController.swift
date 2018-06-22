@@ -11,6 +11,7 @@ import UserNotifications
 
 class ViewController: UIViewController {
 
+    // app uses UNUserNotificationCenter as its UNCenterAuthRequester
     let authRequester: UNCenterAuthRequester = UNUserNotificationCenter.current()
     var controller: UserNotificationController?
 
